@@ -62,7 +62,7 @@ public class Game_Panel extends JPanel implements ActionListener, KeyListener {
     }
 
     public void DrawGrid(Graphics2D G2D) {
-        G2D.setPaint(Color.GRAY);
+        G2D.setPaint(Color.RED);
         for (int i = 0; i <= PanelHeight; i += unitSize) {
             G2D.drawLine(0, i, PanelWidth, i);
         }
