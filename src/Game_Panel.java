@@ -12,7 +12,7 @@ public class Game_Panel extends JPanel implements ActionListener, KeyListener {
     int PanelWidth;
     int PanelHeight;
     final int unitSize = 20;
-    public int bodySizeInit = 3;
+    public int bodySizeInit = 4;
     public static int Score = 0;
     char Direction = 'R' ;
     boolean RL_Flag = false;
