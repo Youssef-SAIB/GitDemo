@@ -91,7 +91,7 @@ public class Game_Panel extends JPanel implements ActionListener, KeyListener {
     }
 
     public void drawApple(){
-        G2D.setPaint(Color.YELLOW);
+        G2D.setPaint(Color.GREEN);
         G2D.fillOval(xApple, yApple, unitSize, unitSize);
     }
 
